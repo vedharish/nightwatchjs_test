@@ -1,0 +1,22 @@
+{
+  "name": "tmp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "a.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@commitlint/cli": "^17.4.0",
+    "@commitlint/config-conventional": "^17.4.0",
+    "@cucumber/cucumber": "^9.1.2",
+    "@nightwatch/mobile-helper": "^0.1.12",
+    "chromedriver": "^113.0.0",
+    "geckodriver": "^3.2.0",
+    "husky": "^8.0.3",
+    "nightwatch": "^3.0.0-alpha.3"
+  }
+}
