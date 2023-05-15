@@ -15,7 +15,7 @@ jobs:
       - browser-tools/install-browser-tools
       - node/install-packages
       - run:
-          command: npm run test
+          command: npm run test:circleci
       - store_test_results:
           path: /tests_output
 workflows:
